@@ -1,0 +1,9 @@
+streamlit
+snowflake-connector-python
+openai
+python-dotenv
+fpdf
+folium
+streamlit-folium
+pandas
+plotly
