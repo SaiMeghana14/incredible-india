@@ -1,4 +1,4 @@
-# 🇮🇳 Incredible India – Cultural Explorer 🌏
+# Incredible India – Cultural Explorer 🌏
 
 A Streamlit web app that showcases India's rich cultural heritage – festivals, food, monuments, and more – powered by **Snowflake** as the backend and hosted on **Streamlit Cloud**.
 
@@ -121,7 +121,7 @@ INSERT INTO explorer VALUES
 
 ## 🙋‍♀️ Who Can Use This?
 
-- 🇮🇳 Indian cultural enthusiasts
+-  Indian cultural enthusiasts
 - 🧑‍🎓 Hackathon beginners learning Streamlit + Snowflake
 - 🖥️ Web devs wanting to demo a data-driven app
 
