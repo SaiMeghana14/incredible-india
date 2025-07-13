@@ -1,6 +1,5 @@
-# 📁 app.py – Main Streamlit App
 import streamlit as st
-from utils.snowflake_connector import get_states, get_state_info, log_visit
+from utils.postgres_connector import get_states, get_state_info, log_visit, insert_review, fetch_reviews
 from utils.ai_bot import get_bot_response
 from utils.travel_planner import plan_trip
 from utils.quiz import start_quiz
@@ -13,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(page_title="Incredible India Explorer", layout="wide")
-st.title("🇮🇳 Incredible India Explorer ❄️")
+st.title("Incredible India Explorer ❄️")
 st.caption("Explore India. Powered by Snowflake.")
 
 # Sidebar
